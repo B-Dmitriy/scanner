@@ -1,2 +1,0 @@
-# scanner
-Simple port scanner
