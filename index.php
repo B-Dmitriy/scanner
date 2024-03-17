@@ -1,9 +1,11 @@
 <?php
 
-require_once __DIR__ . '/app/core/Boostrap/Boostrap.php';
+$uri = $_SERVER['REQUEST_URI'];
 
-use App\Boostrap;
-
-$app = new Boostrap;
-
-$app->run();
+if ($uri === '/') {
+    include_once __DIR__ . "/views/main.php";
+} elseif ($uri === '/about') {
+    include_once __DIR__ . "/views/about.php";
+} else {
+    include_once __DIR__ . "/views/404.php";
+}
