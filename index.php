@@ -29,6 +29,6 @@ if ($uri === '/') {
 }
 ?>
 <?php include_once 'views/layout/footer.php'?>
-<script src="/app/js/main.js"></script>
+<script src="/public/js/main.js"></script>
 </body>
 </html>
