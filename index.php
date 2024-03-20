@@ -11,24 +11,29 @@
 </head>
 <body class="min-h-screen w-full">
 <?php include_once 'views/layout/header.php'?>
-<?php
-$uri = $_SERVER['REQUEST_URI'];
+<main class="container xl mx-auto flex w-full">
+    <section class="w-8/12">
+        <section style="border: red 1px solid;">
+            Hello
+        </section>
 
-if ($uri === '/') {
-    include_once __DIR__ . "/views/main.php";
-} elseif ($uri === '/catalog') {
-    include_once __DIR__ . "/views/catalog.php";
-} elseif ($uri === '/admin') {
-    include_once __DIR__ . "/views/admin.php";
-} elseif ($uri === '/about') {
-    include_once __DIR__ . "/views/about.php";
-} elseif ($uri === '/card') {
-    include_once __DIR__ . "/views/card.php";
-} else {
-    include_once __DIR__ . "/views/404.php";
-}
-?>
+        <section style="border: red 1px solid;">
+            Search
+        </section>
+
+        <section style="border: red 1px solid;">
+            Filters
+        </section>
+
+        <section style="border: red 1px solid;">
+            List
+        </section>
+    </section>
+
+    <aside class="w-4/12" style="border: red 1px solid;">
+        <?php include_once 'personal.php' ?>
+    </aside>
+</main>
 <?php include_once 'views/layout/footer.php'?>
-<script src="/public/js/main.js"></script>
 </body>
 </html>

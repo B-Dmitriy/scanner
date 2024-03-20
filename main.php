@@ -18,6 +18,6 @@
     </section>
 
     <aside class="w-4/12" style="border: red 1px solid;">
-        AD
+        <?php include_once 'personal.php' ?>
     </aside>
 </main>

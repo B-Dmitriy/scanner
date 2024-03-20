@@ -8,19 +8,19 @@
 
     <nav class="ml-auto">
         <a
-            href="/admin"
+            href="/admin.php"
             class="px-3 py-2 mx-1 hover:bg-orange-700 duration-300 hover:text-white rounded-md text-center"
         >Администрирование</a>
         <a
-            href="/catalog"
+            href="/catalog.php"
             class="px-3 py-2 mx-1 hover:bg-orange-700 duration-300 hover:text-white rounded-md text-center"
         >Каталог</a>
         <a
-            href="/card"
+            href="/card.php"
             class="px-3 py-2 mx-1 hover:bg-orange-700 duration-300 hover:text-white rounded-md"
         >Корзина</a>
         <a
-            href="/about"
+            href="/about.php"
             class="px-3 py-2 mx-1 hover:bg-orange-700 duration-300 hover:text-white rounded-md"
         >О нас</a>
     </nav>
