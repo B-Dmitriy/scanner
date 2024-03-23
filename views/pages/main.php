@@ -1,5 +1,10 @@
-<main class="container xl mx-auto flex w-full">
-    <section class="w-8/12">
+<!doctype html>
+<html lang="en">
+<?php include_once 'views/layout/head.php'?>
+<body>
+<?php include_once 'views/layout/header.php'?>
+<main>
+    <section>
         <section style="border: red 1px solid;">
             Hello
         </section>
@@ -17,7 +22,10 @@
         </section>
     </section>
 
-    <aside class="w-4/12" style="border: red 1px solid;">
-        <?php include_once 'personal.php' ?>
+    <aside style="border: red 1px solid;">
+        Personal
     </aside>
 </main>
+<?php include_once 'views/layout/footer.php'?>
+</body>
+</html>
