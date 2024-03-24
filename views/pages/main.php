@@ -1,3 +1,17 @@
+<?php
+try {
+    $pdo = new PDO("mysql:host=localhost;dbname=records_shop", 'root', 'zion1101');
+
+    $res = $pdo->query("SELECT * FROM records WHERE id = 1;");
+
+    $t = $res->fetch();
+
+    // echo ($t['name']);
+} catch (PDOException $e) {
+    echo "Невозможно установить соединение с базой данных";
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <?php include_once 'views/layout/head.php'?>
