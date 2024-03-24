@@ -6,7 +6,8 @@ use App\services\Router;
 
 Router::page('/', 'views/pages/main.php');
 Router::page('/about', 'views/pages/about.php');
-Router::page('/admin', 'views/pages/admin.php');
 Router::page('/card', 'views/pages/card.php');
+Router::page('/admin', 'views/pages/admin.php');
+Router::page('/user', 'views/pages/user.php');
 
 Router::enable();

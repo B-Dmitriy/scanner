@@ -1,13 +1,17 @@
 <header>
-    <a href="/">
-        <img src="/assets/icons/logo.svg" alt="logo" width="40" height="40"/>
-        <span >Record shop</span>
-    </a>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid d-flex ">
+            <a href="/">
+                <img src="/assets/icons/logo.svg" alt="logo" width="40" height="40"/>
+                <span >Record shop</span>
+            </a>
 
-    <nav>
-        <a href="/admin">Администрирование</a>
-        <a href="/">Главная</a>
-        <a href="/card">Корзина</a>
-        <a href="/about">О нас</a>
+            <div class="d-flex">
+                <a class="m-1 btn btn-primary" href="/">Главная</a>
+                <a class="m-1 btn btn-primary" href="/about">О нас</a>
+                <a class="m-1 btn btn-primary" href="/card">Корзина</a>
+                <a class="m-1 btn btn-primary" href="/user">Войти</a>
+            </div>
+        </div>
     </nav>
 </header>
