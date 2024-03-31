@@ -1,0 +1,6 @@
+{
+    "name": "beloyar/records_shop",
+    "require": {
+        "robmorgan/phinx": "0.16.0"
+    }
+}
