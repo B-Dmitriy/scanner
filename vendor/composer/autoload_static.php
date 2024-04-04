@@ -15,6 +15,7 @@ class ComposerStaticInit05622a2513225875435cc279138baeb9
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '948ad5488880985ff1c06721a4e447fe' => __DIR__ . '/..' . '/cakephp/utility/bootstrap.php',
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -40,6 +41,10 @@ class ComposerStaticInit05622a2513225875435cc279138baeb9
         'L' => 
         array (
             'League\\Container\\' => 17,
+        ),
+        'F' => 
+        array (
+            'FastRoute\\' => 10,
         ),
         'C' => 
         array (
@@ -107,6 +112,10 @@ class ComposerStaticInit05622a2513225875435cc279138baeb9
         'League\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/container/src',
+        ),
+        'FastRoute\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/fast-route/src',
         ),
         'Cake\\Utility\\' => 
         array (

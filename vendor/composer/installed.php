@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'beloyar/records_shop',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'f5637b59e709190458d998a9b1d7bd7225d735cf',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'beloyar/records_shop' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f5637b59e709190458d998a9b1d7bd7225d735cf',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -73,6 +73,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'nikic/fast-route' => array(
+            'pretty_version' => 'v1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => '181d480e08d9476e61381e04a71b34dc0432e812',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/fast-route',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'orno/di' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -91,8 +100,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '^1.0',
-                1 => '^2.0',
+                0 => '^2.0',
+                1 => '^1.0',
             ),
         ),
         'psr/log' => array(
