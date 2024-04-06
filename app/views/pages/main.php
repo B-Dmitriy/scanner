@@ -45,7 +45,7 @@
                 <?php foreach($data as $record){ ?>
                     <div class="col d-flex justify-content-center pb-4">
                         <section class="card" style="width: 18rem;">
-                            <img src="https://media.istockphoto.com/id/690066030/photo/red-and-white-siamese-fighting-fish-half-moon-shape-isolated-on-black.jpg?s=612x612&w=0&k=20&c=mFDtldxcFbeC70-feOem0nUjNu8MVHBTwo-2aXIwMUM=" class="card-img-top" alt="logo">
+                            <img src="../../../public/images/<?= $record['image'] ?>" class="card-img-top" alt="logo">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $record['name'] ?></h5>
                                 <p class="card-text"><?= $record['price'] ?>$</p>
